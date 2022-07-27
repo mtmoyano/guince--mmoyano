@@ -20,6 +20,11 @@ h1{
     border-radius: 5px;
 }
 
+.logoGuince:hover{
+    width: 200px;
+}
+
+
 .anclaNav{
     font-size: 1rem;
     font-weight: bold;
@@ -86,4 +91,12 @@ h1{
     opacity: 70%;
     background-color:lightgrey;
     border-radius: 15px;
+}
+
+.videoYT{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width:auto;
+    margin: auto;
 }
