@@ -1,9 +1,19 @@
 /* header */
 
+.container-fluid{
+    background-color:aliceblue;
+
+}
+
+
+header{
+    border-bottom: 3px deepskyblue solid;
+}
 h1{
     text-shadow: 1px;
     font-weight: bold;
     font-style: italic;
+
 }
 .logoGuince{
     width:150px;
@@ -20,7 +30,7 @@ h1{
 .fotosEquipo{
     margin: 100px;
     opacity: 70%;
-    background-color:lightgrey;
+    background-color:deepskyblue;
     border-radius: 15px;
 }
 
@@ -43,6 +53,14 @@ h1{
     width: 200px;
     border-radius: 5px;
     border: 1px deepskyblue solid;
+}
+
+.formularioContacto{
+    border: 1px deepskyblue solid;
+    margin: 10px 1px 1px 1px;
+    padding:3%;
+    border-radius: 20px;
+
 }
 
 .tituloPlantilla{
