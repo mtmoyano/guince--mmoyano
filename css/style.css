@@ -1,0 +1,71 @@
+/* header */
+
+h1{
+    text-shadow: 1px;
+    font-weight: bold;
+    font-style: italic;
+}
+.logoGuince{
+    width:150px;
+    border-radius: 5px;
+}
+
+.anclaNav{
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:deepskyblue;
+}
+
+.fotosEquipo{
+    margin: 100px;
+    opacity: 70%;
+    background-color:lightgrey;
+    border-radius: 15px;
+}
+
+.imgEquipo {
+    border-radius: 30px;
+}
+.losBotones{
+    background-color: lightskyblue;
+}
+
+.sectionEquipo{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fotoGuinceTodos{
+    width: 200px;
+    border-radius: 5px;
+    border: 1px deepskyblue solid;
+}
+
+.tituloPlantilla{
+    color: deepskyblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.jugadoresDestacados{
+    margin: 10%;
+}
+
+.escudoGuinceMedio{
+    width: 200px;
+}
+
+.accordionGuince{
+    margin: 20px;
+}
+
+.galeriaGuince{
+    margin: 100px;
+    opacity: 70%;
+    background-color:lightgrey;
+    border-radius: 15px;
+}
