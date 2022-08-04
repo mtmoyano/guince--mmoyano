@@ -1,101 +1,71 @@
-/* header */
+.container-fluid {
+  background-color: aliceblue; }
 
-.container-fluid{
-    background-color:aliceblue;
+header {
+  border-bottom: 3px deepskyblue solid; }
 
-}
+h1 {
+  text-shadow: 1px;
+  font-weight: bold;
+  font-style: italic; }
 
-
-header{
-    border-bottom: 3px deepskyblue solid;
-}
-h1{
-    text-shadow: 1px;
-    font-weight: bold;
-    font-style: italic;
-
-}
-.logoGuince{
-    width:150px;
-    border-radius: 5px;
-}
-
-.logoGuince:hover{
-    width: 200px;
-}
-
-
-.anclaNav{
+.logoGuince {
+  width: 150px;
+  border-radius: 5px; }
+  .logoGuince:hover {
+    width: 200px; }
+  .logoGuince .anclaNav {
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
-    color:deepskyblue;
-}
+    color: deepskyblue; }
 
-.fotosEquipo{
-    margin: 100px;
-    opacity: 70%;
-    background-color:deepskyblue;
-    border-radius: 15px;
-}
+.fotosEquipo {
+  margin: 100px;
+  opacity: 70%;
+  background-color: deepskyblue;
+  border-radius: 15px; }
+  .fotosEquipo .imgEquipo {
+    border-radius: 30px; }
+  .fotosEquipo .losBotones {
+    background-color: lightskyblue; }
 
-.imgEquipo {
-    border-radius: 30px;
-}
-.losBotones{
-    background-color: lightskyblue;
-}
-
-.sectionEquipo{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.fotoGuinceTodos{
+.sectionEquipo {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px; }
+  .sectionEquipo .fotoGuinceTodos {
     width: 200px;
     border-radius: 5px;
-    border: 1px deepskyblue solid;
-}
-
-.formularioContacto{
-    border: 1px deepskyblue solid;
-    margin: 10px 1px 1px 1px;
-    padding:3%;
-    border-radius: 20px;
-
-}
-
-.tituloPlantilla{
+    border: 1px deepskyblue solid; }
+  .sectionEquipo .tituloPlantilla {
     color: deepskyblue;
     font-weight: bold;
-    text-decoration: underline;
-}
+    text-decoration: underline; }
 
+.accordionGuince {
+  margin: 20px; }
+  .accordionGuince .escudoGuinceMedio {
+    width: 200px; }
 
+.formularioContacto {
+  border: 1px deepskyblue solid;
+  margin: 10px 1px 1px 1px;
+  padding: 3%;
+  border-radius: 20px; }
 
-.escudoGuinceMedio{
-    width: 200px;
-}
+.galeriaGuince {
+  margin: 100px;
+  opacity: 70%;
+  background-color: lightgrey;
+  border-radius: 15px; }
 
-.accordionGuince{
-    margin: 20px;
-}
-
-.galeriaGuince{
-    margin: 100px;
-    opacity: 70%;
-    background-color:lightgrey;
-    border-radius: 15px;
-}
-
-.videoYT{
-    display: flex;
-    justify-content: center;
-    height: auto;
-    width:auto;
-    margin: auto;
-}
+.videoYT {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin: auto; }

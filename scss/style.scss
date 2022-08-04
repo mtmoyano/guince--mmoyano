@@ -1,0 +1,33 @@
+.container-fluid{
+    background-color: aliceblue
+}
+@import "variables";
+@import "header";
+@import "fotos";
+@import "sectionEquipo";
+@import "accordion";
+
+
+.formularioContacto {
+    border: 1px $color-primario solid;
+    margin: 10px 1px 1px 1px;
+    padding: 3%;
+    border-radius: 20px; 
+}
+
+
+.galeriaGuince{
+    margin: 100px;
+    opacity: 70%;
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+
+
+.videoYT{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin: auto;
+}
