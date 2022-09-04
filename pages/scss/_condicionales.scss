@@ -1,0 +1,12 @@
+$vista:escritorio;
+
+@if ($vista == movil) {
+    .container-fluid{
+        background-color: bisque;
+    }
+}@else if($vista == escritorio){
+    .container-fluid{
+        background-color:aliceblue;
+    }
+}
+    
